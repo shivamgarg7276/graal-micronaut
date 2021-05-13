@@ -4,7 +4,11 @@
 
 [![versionsmicronaut](https://img.shields.io/badge/micronaut-2.5.1-blue)](https://github.com/micronaut-projects)  
 
-This example project shows a Micronaut application without AOT, and then convert it to a Native Image using GraalVM Native Image plugin.
+This example project shows a Micronaut application without AOT, and then convert it to a Native Image using GraalVM Native Image plugin.  
+
+
+https://user-images.githubusercontent.com/49524850/118152586-805ee800-b432-11eb-92b8-ccd8773a5189.mov
+
 
 # Install GraalVM with SDKMAN
 
