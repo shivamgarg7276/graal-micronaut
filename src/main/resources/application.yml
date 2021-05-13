@@ -1,0 +1,6 @@
+micronaut:
+  application:
+    name: Graal Github Application
+
+#github:
+#  token: user:placeholder
