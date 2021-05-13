@@ -147,3 +147,7 @@ This will start the Micronaut server at port `8080`.
 
 The startup will be approximately `25 ms` compared to the `600 ms` when using the application without AOT.  
 Also, the memory consumption this time should be around `35 MB` compared to `180 MB` in the JIT variant.
+
+# Comparison with Spring Boot
+
+For comparison with Spring Boot, checkout https://github.com/shivamgarg7276/graal-spring-native
