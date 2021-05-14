@@ -146,7 +146,7 @@ Simply invoke -
 This will start the Micronaut server at port `8080`.   
 
 The startup will be approximately `25 ms` compared to the `600 ms` when using the application without AOT.  
-Also, the memory consumption this time should be around `35 MB` compared to `180 MB` in the JIT variant.
+Also, the memory consumption this time should be around `30 MB` compared to `180 MB` in the JIT variant.
 
 # Comparison with Spring Boot
 
