@@ -14,7 +14,7 @@ import javax.validation.Valid;
 import java.nio.charset.StandardCharsets;
 import java.util.Base64;
 
-@Filter
+@Filter(value = {"/users/**", "/repos/**"})
 public class GithubAppTokenFilter implements HttpClientFilter {
 
   private final GithubProperties githubProperties;

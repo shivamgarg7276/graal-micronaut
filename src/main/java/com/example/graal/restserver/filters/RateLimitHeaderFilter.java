@@ -10,7 +10,7 @@ import org.reactivestreams.Publisher;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-@Filter
+@Filter(value = {"/users/**", "/repos/**"})
 public class RateLimitHeaderFilter implements HttpClientFilter {
 
   Logger log = LoggerFactory.getLogger(RateLimitHeaderFilter.class);
